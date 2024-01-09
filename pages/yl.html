@@ -8,7 +8,8 @@
 	<link rel="stylesheet" href="../css/animate.css/animate.min.css">
 	<link rel="stylesheet" href="../css/bootstrap-icons/font/bootstrap-icons.min.css">
 	<link rel="stylesheet" href="https://fonts.google.com/specimen/Plus+Jakarta+Sans?query=plus">
-	<link rel="stylesheet" href="https://fonts.google.com/specimen/Jomhuria">
+	<link rel="stylesheet" href="https://fonts.google.com/noto/specimen/Noto+Naskh+Arabic">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Jomhuria">
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/dashboard.rtl.css">
 	<style>
@@ -16,7 +17,14 @@
 			font-family : "Plus Jakarta Sans", sans-serif;
 		}
 
-		
+		.font-arab {
+			font-family : "Noto Naskh Arabic";
+			font-weight: 600;
+		}
+        .arabic-font {
+            font-family : "Jomhuria";
+            font-size: 2em;
+        }
 		.bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -115,7 +123,7 @@
 	
 
 	<header class="navbar sticky-top bg-dark flex-md-nowrap p-0 shadow" data-bs-theme="dark">
-		<a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6 text-white" href="#">قصيداة</a>
+		<a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6 text-white" href="qosidah.html">قصيداة</a>
 
 		<ul class="navbar-nav flex-row d-md-none">
 			<li class="nav-item text-nowrap">
@@ -124,6 +132,10 @@
 			</button>
 			</li>
 		</ul>
+
+		<div id="navbarSearch" class="navbar-search w-100 collapse">
+			<input class="form-control w-100 rounded-0 border-0" type="text" placeholder="بحث" aria-label="بحث">
+		</div>
 	</header>
 
 	<div class="container-fluid">
@@ -137,7 +149,7 @@
 					<div class="offcanvas-body d-md-flex flex-column p-0 pt-lg-3 overflow-y-auto">
 						<ul class="nav flex-column">
 							<li class="nav-item font-arab">
-								<a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="as.html">
+								<a class="nav-link d-flex align-items-center gap-2" aria-current="page" href="as.html">
 									<i class="bi-card-text"></i>
 									السلام عليك
 								</a>
@@ -149,7 +161,7 @@
 								</a>
 							</li>
 							<li class="nav-item font-arab">
-								<a class="nav-link d-flex align-items-center gap-2" href="yl.html">
+								<a class="nav-link d-flex align-items-center gap-2 active" href="yl.html">
 									<i class="bi-card-text"></i>
 									يالقلبٍ
 								</a>
@@ -181,9 +193,39 @@
 					<h1 class="h2">قصيداة</h1>
 				</div>
 				<div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
-					<div class="col-lg-6 px-0 font-arab">
-					  <h1 class="display-4">مجموعة القصائد</h1>
-					  <p class="lead my-3">هذه قصيداة من بين السلاف الصاليح والعريف</p>
+					<div class="col-lg-12 px-0 font-arab">
+					  <h1 class="display-4">يالقلبٍ</h1>
+					  <p class="lead my-3">هذه قصيداة من الامام الحبيب على بن محمد بن حسين الحبشى</p>
+					</div>
+				</div>
+                <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+					<div class="col-lg-12 px-0 font-arab">
+					  <h1 class="lead text-center arabic-font">يا لقلب سروره قد توالی - بحبيب عم الأنام نوالا</h1>
+                      <h6 class="text-center">Aduhai hati yg selalu merasa senang, dengan seorang kekasih pembawa anugerah bagi setiap manusia</h6>
+					</div>
+				</div>
+                <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+					<div class="col-lg-12 px-0 font-arab">
+					  <h1 class="lead text-center arabic-font">جل من شرف الوجود بنور - غمر الگون بهجة وجمالا</h1>
+                      <h6 class="text-center">Maha agung Dzat yang telah memuliakan alam wujud dengan cahayanya, yang telah memperindah dan mempercantik alam semesta</h6>
+					</div>
+				</div>
+                <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+					<div class="col-lg-12 px-0 font-arab">
+					  <h1 class="lead text-center arabic-font">قد ترقی فی الحسن أعلی مقام - وتناهی فی مجده وتعالیا</h1>
+                      <h6 class="text-center">dia telah naik ke tempat yang tertinggi dalam kebaikannya, dan telah memuncak dalam keagungannya</h6>
+					</div>
+				</div>
+                <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+					<div class="col-lg-12 px-0 font-arab">
+					  <h1 class="lead text-center arabic-font">لاحظته العيون فيما اجتلته - بشرا گاملا يزيح الضلالاا</h1>
+                      <h6 class="text-center">Dia diperhatikan semua mata karena keagungan yang digenggamnya, berupa manusia sempurna, pengikis kesesatan</h6>
+					</div>
+				</div>
+                <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+					<div class="col-lg-12 px-0 font-arab">
+					  <h1 class="lead text-center arabic-font">وهو فوق علم ماقد رأته - رفعة فی شؤونه وگمالا</h1>
+                      <h6 class="text-center">sungguh dia telah melampaui segala yang bisa dicapai pengetahuan, dalam hal keluhuran dan kesempurnaannya</h6>
 					</div>
 				</div>
 			</main>
